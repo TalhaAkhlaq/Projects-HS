@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Assignment1 
+class Calculating_Grades
 {
   public static void main(String[] args) 
   {

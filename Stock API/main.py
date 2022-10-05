@@ -6,7 +6,7 @@ import time
 # https://twelvedata.com/pricing
 
 ticker = "MSFT"
-api_key = "4e61eafd710346478686d7eda5415321"
+api_key = ""
 
 # Main
 # print(get_stock_price(ticker, api_key))

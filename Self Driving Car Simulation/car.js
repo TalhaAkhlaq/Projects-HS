@@ -1,4 +1,5 @@
 class Car{
+    
     constructor(x,y,width,height,controlType,maxSpeed=3,color="blue"){
         this.x=x;
         this.y=y;
@@ -62,6 +63,7 @@ class Car{
         }
     }
 
+    
     #assessDamage(roadBorders,traffic){
         for(let i=0;i<roadBorders.length;i++){
             if(polysIntersect(this.polygon,roadBorders[i])){

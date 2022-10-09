@@ -1,50 +1,58 @@
-import requests
-import time
+#Import Modules
+from polygon import RESTClient
+import datetime as dt
+import pandas as pd
+import plotly.graph_objects as go
+from plotly.offline import plot
 
 # API Key
-# https://twelvedata.com/
-# https://twelvedata.com/pricing
+polygonAPIkey = 'YOUR API KEY HERE'
 
-ticker = "MSFT"
-api_key = "4e61eafd710346478686d7eda5415321"
+# Create a REST client object
+# API key is required to use the REST client
+client = RESTClient(polygonAPIkey) 
 
-# Main
-# print(get_stock_price(ticker, api_key))
-# print(get_stock_quote(ticker, api_key))
+# Enter a stock ticker symbol
+contractNames = []
+for c in client.list_options_contracts(underlying_ticker = 'MSFT', limit = 1000):
+    contractNames.append(c)
+print(contractNames)
 
-def get_stock_price(ticker_symbol, api):
-    url = f"https://api.twelvedata.com/price?symbol={ticker_symbol}&apikey={api}"
-    response = requests.get(url).json()
-    price = response['price'][:-3]
-    return price
+# Get the last 10 days of AAPL stock data
+contractData = contractNames[398]
+optionsTicker = contractData.ticker
+dailyOptionData = client.get_aggs(ticker = optionsTicker, 
+                                  multiplier = 1,
+                                  timespan = 'day',
+                                  from_ = '1900-01-01',
+                                  to = '2100-01-01')
 
-# Path: Stock API\main.py
-# Compare this snippet from main.py:
+# Create a dataframe from the daily stock data
+intradayOptionData = client.get_aggs(ticker = optionsTicker, 
+                                     multiplier = 5,
+                                     timespan = 'minute',
+                                     from_ = '1900-01-01',
+                                     to = '2100-01-01')
 
+# Create a dataframe from the daily stock data
+hourlyOptionData = client.get_aggs(ticker = optionsTicker, 
+                                   multiplier = 2,
+                                   timespan = 'hour',
+                                   from_ = '1900-01-01',
+                                   to = '2100-01-01')
 
-def get_stock_quote(ticker_symbol, api):
-    url = f"https://api.twelvedata.com/quote?symbol={ticker_symbol}&apikey={api}"
-    response = requests.get(url).json()
-    return response
+# Create a dataframe from the daily stock data
+optionDataFrame = pd.DataFrame(dailyOptionData)
+optionDataFrame['Date'] = optionDataFrame['timestamp'].apply(
+                          lambda x: pd.to_datetime(x*1000000))
 
+# Create a dataframe from the daily stock data
+optionDataFrame = optionDataFrame.set_index('Date')
+fig = go.Figure(data=[go.Candlestick(x=optionDataFrame.index,
+                open=optionDataFrame['open'],
+                high=optionDataFrame['high'],
+                low=optionDataFrame['low'],
+                close=optionDataFrame['close'])])
 
-# Path: Stock API\main.py
-# Compare this snippet from main.py:
-# if hands:
-# for hand in hands:
-# drawing_utils.draw_landmarks(frame, hand)
-# for id, lm in enumerate(hand.landmark):
-
-stockdata = get_stock_quote(ticker, api_key)
-stock_price = get_stock_price(ticker, api_key)
-
-# exchange = stockdata['exchange']
-# currency = stockdata['currency']
-# open_price = stockdata['open']
-# high_price = stockdata['high']
-# low_price = stockdata['low']
-# close_price = stockdata['close']
-# volume = stockdata['volume']
-name = stockdata['name']
-
-print(name, stock_price)
+# Plot the data
+plot(fig, auto_open=True)

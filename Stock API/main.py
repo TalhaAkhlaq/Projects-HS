@@ -1,4 +1,4 @@
-#Import Modules
+#import modules
 from polygon import RESTClient
 import datetime as dt
 import pandas as pd
@@ -21,24 +21,23 @@ print(contractNames)
 # Get the last 10 days of AAPL stock data
 contractData = contractNames[398]
 optionsTicker = contractData.ticker
-dailyOptionData = client.get_aggs(ticker = optionsTicker, 
+dailyOptionData = client.getaggs(ticker = optionsTicker, 
                                   multiplier = 1,
                                   timespan = 'day',
-                                  from_ = '1900-01-01',
+                                  from = '1900-01-01',
                                   to = '2100-01-01')
 
 # Create a dataframe from the daily stock data
-intradayOptionData = client.get_aggs(ticker = optionsTicker, 
+intradayOptionData = client.getaggs(ticker = optionsTicker, 
                                      multiplier = 5,
                                      timespan = 'minute',
-                                     from_ = '1900-01-01',
+                                     from = '1900-01-01',
                                      to = '2100-01-01')
-
 # Create a dataframe from the daily stock data
-hourlyOptionData = client.get_aggs(ticker = optionsTicker, 
+hourlyOptionData = client.getaggs(ticker = optionsTicker, 
                                    multiplier = 2,
                                    timespan = 'hour',
-                                   from_ = '1900-01-01',
+                                   from = '1900-01-01',
                                    to = '2100-01-01')
 
 # Create a dataframe from the daily stock data

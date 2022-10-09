@@ -28,6 +28,7 @@ dailyOptionData = client.getaggs(ticker = optionsTicker,
                                   to = '2100-01-01')
 
 # Create a dataframe from the daily stock data
+
 intradayOptionData = client.getaggs(ticker = optionsTicker, 
                                      multiplier = 5,
                                      timespan = 'minute',

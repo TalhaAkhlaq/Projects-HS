@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 from plotly.offline import plot
 
 # API Key
-polygonAPIkey = 'YOUR API KEY HERE'
+polygonAPIkey = 'Your API Key'
 
 # Create a REST client object
 # API key is required to use the REST client
@@ -17,28 +17,27 @@ contractNames = []
 for c in client.list_options_contracts(underlying_ticker = 'MSFT', limit = 1000):
     contractNames.append(c)
 print(contractNames)
-
 # Get the last 10 days of AAPL stock data
 contractData = contractNames[398]
 optionsTicker = contractData.ticker
-dailyOptionData = client.getaggs(ticker = optionsTicker, 
-                                  multiplier = 1,
-                                  timespan = 'day',
-                                  from = '1900-01-01',
-                                  to = '2100-01-01')
+dailyOptionData = client.get_aggs(ticker = optionsTicker, 
+                                multiplier = 1,
+                                timespan = 'day',
+                                new_var = '1900-01-01',
+                                to = '2100-01-01')
 
 # Create a dataframe from the daily stock data
 
-intradayOptionData = client.getaggs(ticker = optionsTicker, 
+intradayOptionData = client.get_aggs(ticker = optionsTicker, 
                                      multiplier = 5,
                                      timespan = 'minute',
-                                     from = '1900-01-01',
+                                     new_var = '1900-01-01',
                                      to = '2100-01-01')
 # Create a dataframe from the daily stock data
-hourlyOptionData = client.getaggs(ticker = optionsTicker, 
+hourlyOptionData = client.get_aggs(ticker = optionsTicker, 
                                    multiplier = 2,
                                    timespan = 'hour',
-                                   from = '1900-01-01',
+                                   new_var = '1900-01-01',
                                    to = '2100-01-01')
 
 # Create a dataframe from the daily stock data

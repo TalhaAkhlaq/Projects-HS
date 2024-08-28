@@ -1,2 +1,1 @@
-# Projects
-An Assortment of my Projects
+# Projects (High School)

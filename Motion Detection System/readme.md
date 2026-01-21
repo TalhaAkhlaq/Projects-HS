@@ -11,3 +11,25 @@
 - Flask REST API for JSON sensor data; MQTT (Mosquitto) publish/subscribe for sensor + relay commands
 - Web dashboard with Chart.js + WebSockets (AJAX for API requests)
 - Nginx reverse proxy for HTTP routing, SSL termination, and performance tuning (caching/load handling)
+
+## Hardware and Build
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="./image_1.png" width="100%" />
+      <br/>
+      <sub>CAD model</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="./image_2.png" width="100%" />
+      <br/>
+      <sub>Physical prototype</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="./image__.png" width="100%" />
+      <br/>
+      <sub>Wiring / layout</sub>
+    </td>
+  </tr>
+</table>

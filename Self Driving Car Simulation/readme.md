@@ -18,31 +18,32 @@
 - `visualizer.js` - Network/sensor visualization
 - `car.png` - Vehicle sprite
 
-## Images
+## Simulation Visualizations
 
 <table>
   <tr>
     <td align="center" width="50%">
       <img src="./image1.png" width="95%" />
       <br />
-      <sub>Ray-cast sensors (scenario A)</sub>
+      <sub>Ray-cast sensor coverage and detected boundaries</sub>
     </td>
     <td align="center" width="50%">
       <img src="./image2.png" width="95%" />
       <br />
-      <sub>Network activations (scenario A)</sub>
+      <sub>Neural network structure and activations view</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <img src="./image3.png" width="95%" />
       <br />
-      <sub>Ray-cast sensors (scenario B)</sub>
+      <sub>Ray-cast sensor coverage during obstacle interaction</sub>
     </td>
     <td align="center" width="50%">
       <img src="./image4.png" width="95%" />
       <br />
-      <sub>Network activations (scenario B)</sub>
+      <sub>Neural network activations during obstacle interaction</sub>
     </td>
   </tr>
 </table>
+

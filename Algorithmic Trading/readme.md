@@ -12,3 +12,11 @@
 - `Stock Data/` - Data collection and analysis utilities
 - `Trading Bot/` - Trading bot prototype using real-time data streams
 - `main.py`, `screener.py` - Technical-analysis screeners (RSI, MACD, Bollinger Bands) with consolidation/breakout detection
+
+## Example Output
+
+<p align="center">
+  <img src="./image_.png" width="90%" />
+  <br/>
+  <sub>Signal visualization (indicators + entries/exits)</sub>
+</p>

@@ -11,8 +11,8 @@ Java coursework and projects completed for AP Computer Science A.
 - Problem solving: decomposition, testing, and edge-case handling
 
 ## Repository Contents
-- `Airplane/` - small Java project
-- `Calculating_Grades.java` - grade calculation logic and conditionals
-- `ControlTower.java` - control-flow focused program
-- `Sleep.java` - time or schedule calculation exercise
-- `TimeConversion.java` - unit conversion and arithmetic practice
+- `Airplane/` - Java OOP airplane class with movement and distance calculations
+- `Calculating_Grades.java` - Grade calculation logic and conditionals
+- `ControlTower.java` - Control-flow focused program
+- `Sleep.java` - Time or schedule calculation exercise
+- `TimeConversion.java` - Unit conversion and arithmetic practice

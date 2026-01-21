@@ -18,4 +18,18 @@
 - `visualizer.js` - Network/sensor visualization
 - `car.png` - Vehicle sprite
 
+## Images
 
+<p align="center">
+  <img src="assets/image1.png" width="49%" />
+  <img src="assets/image2.png" width="49%" />
+</p>
+
+<p align="center">
+  <img src="assets/image3.png" width="49%" />
+  <img src="assets/image4.png" width="49%" />
+</p>
+
+<p align="center">
+  <sub>Left: Ray-cast sensor visualization in the lane environment. Right: Neural network structure/activations view.</sub>
+</p>

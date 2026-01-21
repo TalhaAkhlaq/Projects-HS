@@ -27,7 +27,7 @@
       <sub>Physical prototype</sub>
     </td>
     <td align="center" width="33%">
-      <img src="./image__.png" width="100%" />
+      <img src="./image_3.png" width="100%" />
       <br/>
       <sub>Wiring / layout</sub>
     </td>

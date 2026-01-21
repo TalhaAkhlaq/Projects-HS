@@ -2,7 +2,7 @@
 
 Java coursework and projects completed for AP Computer Science A.
 
-## Topics Covered
+## Course Overview
 - Primitive types, expressions, casting, and operator precedence
 - Objects and classes: fields, constructors, methods, scope, and encapsulation
 - Control flow: boolean logic, conditionals, and iteration (for/while)

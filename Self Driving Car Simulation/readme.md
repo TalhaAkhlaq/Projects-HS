@@ -22,26 +22,29 @@
 
 <table>
   <tr>
-    <td align="center" width="25%">
-      <img src="./image1.png" width="100%" />
+    <td align="center" width="50%">
+      <img src="./image1.png" width="90%" />
       <br/>
-      <sub>Sensors</sub>
+      <sub>Ray-cast sensor rays and boundary hits</sub>
     </td>
-    <td align="center" width="25%">
-      <img src="./image2.png" width="100%" />
+    <td align="center" width="50%">
+      <img src="./image2.png" width="90%" />
       <br/>
-      <sub>Network</sub>
+      <sub>Neural network topology and activations</sub>
     </td>
-    <td align="center" width="25%">
-      <img src="./image3.png" width="100%" />
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="./image3.png" width="90%" />
       <br/>
-      <sub>Sensors</sub>
+      <sub>Ray-cast sensor rays during obstacle interaction</sub>
     </td>
-    <td align="center" width="25%">
-      <img src="./image4.png" width="100%" />
+    <td align="center" width="50%">
+      <img src="./image4.png" width="90%" />
       <br/>
-      <sub>Network</sub>
+      <sub>Neural activations during obstacle interaction</sub>
     </td>
   </tr>
 </table>
+
 

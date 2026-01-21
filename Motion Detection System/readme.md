@@ -12,7 +12,7 @@
 - Web dashboard with Chart.js + WebSockets (AJAX for API requests)
 - Nginx reverse proxy for HTTP routing, SSL termination, and performance tuning (caching/load handling)
 
-## Hardware and Build
+## Hardware & Build
 
 <table>
   <tr>

@@ -17,6 +17,5 @@
 
 <p align="center">
   <img src="./image_.png" width="90%" />
-  <br/>
-  <sub>Signal visualization (indicators + entries/exits)</sub>
 </p>
+<p align="center"><b>Indicator overlay with entry/exit markers</b></p>

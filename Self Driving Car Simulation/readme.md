@@ -17,3 +17,6 @@
 - `sensor.js`, `road.js`, `car.js`, `controls.js`, `utils.js` - Core simulation components
 - `visualizer.js` - Network/sensor visualization
 - `car.png` - Vehicle sprite
+
+<img src="image%20(3).png" alt="CAD render" width="49%">
+<img src="image%20(4).png" alt="Prototype" width="49%">

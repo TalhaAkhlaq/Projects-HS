@@ -21,15 +21,16 @@
 ## Images
 
 <p align="center">
-  <img src="assets/image1.png" width="49%" />
-  <img src="assets/image2.png" width="49%" />
+  <img src="./image1.png" width="49%" />
+  <img src="./image2.png" width="49%" />
 </p>
 
 <p align="center">
-  <img src="assets/image3.png" width="49%" />
-  <img src="assets/image4.png" width="49%" />
+  <img src="./image3.png" width="49%" />
+  <img src="./image4.png" width="49%" />
 </p>
 
 <p align="center">
-  <sub>Left: Ray-cast sensor visualization in the lane environment. Right: Neural network structure/activations view.</sub>
+  <sub>Left: Ray-cast sensor visualization in the lane environment. Right: Network structure/activations view.</sub>
 </p>
+

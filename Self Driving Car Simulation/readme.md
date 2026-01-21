@@ -25,24 +25,24 @@
     <td align="center" width="50%">
       <img src="./image1.png" width="90%" />
       <br/>
-      <sub><b>Ray-cast sensors</b></sub>
+      <sub>Ray-cast sensor coverage and detected boundaries</sub>
     </td>
     <td align="center" width="50%">
       <img src="./image2.png" width="90%" />
       <br/>
-      <sub><b>Network activations</b></sub>
+      <sub>Neural network structure and activations view</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <img src="./image3.png" width="90%" />
       <br/>
-      <sub><b>Ray-cast sensors</b></sub>
+      <sub>Ray-cast sensor coverage during obstacle interaction</sub>
     </td>
     <td align="center" width="50%">
       <img src="./image4.png" width="90%" />
       <br/>
-      <sub><b>Network activations</b></sub>
+      <sub>Neural network activations during obstacle interaction</sub>
     </td>
   </tr>
 </table>

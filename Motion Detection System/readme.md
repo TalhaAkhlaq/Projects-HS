@@ -24,8 +24,8 @@
     </td>
   </tr>
   <tr>
-    <td align="center" width="50%"><sub>CAD model</sub></td>
-    <td align="center" width="50%"><sub>Physical prototype</sub></td>
+    <td align="center" width="50%"><sub>CAD Model</sub></td>
+    <td align="center" width="50%"><sub>Physical Prototype</sub></td>
   </tr>
   <tr>
     <td align="center" colspan="2">

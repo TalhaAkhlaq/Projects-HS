@@ -17,26 +17,23 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="./image_1.png" width="92%" />
-      <br/>
+      <img src="./image_1.png" width="92%">
+      <br>
       <sub>CAD model</sub>
     </td>
-
     <td align="center" width="50%">
-      <img src="./image_2.png" width="92%" />
-      <br/>
+      <img src="./image_2.png" width="92%">
+      <br>
       <sub>Physical prototype</sub>
     </td>
   </tr>
-
   <tr>
     <td align="center" colspan="2">
-      <img src="./image_3.png" width="75%" />
-      <br/>
+      <img src="./image_3.png" width="75%">
+      <br>
       <sub>Schematic</sub>
     </td>
   </tr>
 </table>
-
 
 

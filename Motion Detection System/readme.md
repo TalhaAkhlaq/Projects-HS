@@ -12,24 +12,36 @@
 - Web dashboard with Chart.js + WebSockets (AJAX for API requests)
 - Nginx reverse proxy for HTTP routing, SSL termination, and performance tuning (caching/load handling)
 
-## Hardware and Build
+## Hardware & Build
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <img src="./image_1.png" width="100%" />
-      <br/>
-      <sub>CAD model</sub>
+    <td align="center" width="50%">
+      <img src="./image_1.png" width="95%" />
     </td>
-    <td align="center" width="33%">
-      <img src="./image_2.png" width="100%" />
-      <br/>
-      <sub>Physical prototype</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="./image_3.png" width="100%" />
-      <br/>
-      <sub>Wiring / layout</sub>
+    <td align="center" width="50%">
+      <img src="./image_2.png" width="95%" />
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <sub>CAD model</sub>
+    </td>
+    <td align="center">
+      <sub>Physical prototype</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="./image__.png" width="95%" />
+    </td>
+    <td align="center" width="50%"></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <sub>Wiring / layout</sub>
+    </td>
+    <td align="center"></td>
+  </tr>
 </table>
+

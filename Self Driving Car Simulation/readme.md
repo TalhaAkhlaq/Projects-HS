@@ -24,23 +24,29 @@
   <tr>
     <td align="center" width="25%">
       <img src="./image1.png" width="100%" />
-      <br/>
-      <sub style="white-space:nowrap;">Sensor rays and hits</sub>
     </td>
     <td align="center" width="25%">
       <img src="./image2.png" width="100%" />
-      <br/>
-      <sub style="white-space:nowrap;">Network activations</sub>
     </td>
     <td align="center" width="25%">
       <img src="./image3.png" width="100%" />
-      <br/>
-      <sub style="white-space:nowrap;">Sensors with obstacle</sub>
     </td>
     <td align="center" width="25%">
       <img src="./image4.png" width="100%" />
-      <br/>
-      <sub style="white-space:nowrap;">Activations with obstacle</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="25%">
+      <sub>Ray-cast sensor rays and boundary hits</sub>
+    </td>
+    <td align="center" width="25%">
+      <sub>Neural network topology and activations</sub>
+    </td>
+    <td align="center" width="25%">
+      <sub>Ray-cast sensor rays during obstacle interaction</sub>
+    </td>
+    <td align="center" width="25%">
+      <sub>Neural activations during obstacle interaction</sub>
     </td>
   </tr>
 </table>

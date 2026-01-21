@@ -11,4 +11,4 @@
 - `Stock API/` - Market data ingestion and processing
 - `Stock Data/` - Data collection and analysis utilities
 - `Trading Bot/` - Trading bot prototype using real-time data streams
-- `main.py`, `screener.py` - Additional scripts and experiments
+- `main.py`, `screener.py` - Technical-analysis screeners (RSI, MACD, Bollinger Bands) with consolidation/breakout detection

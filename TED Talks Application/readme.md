@@ -1,22 +1,33 @@
-# TED Talk Search Automation
+# TED Talk Search Automation (Python + Selenium)
 
-Selenium script that searches TED Talks for a user-entered topic and opens a result in Chrome.
+## Overview
+Selenium WebDriver script that automates TED’s search flow: accepts a user topic, submits a query on TED Talks, and opens a result.
 
-## Quickstart
-Requirements: Python 3, Chrome, ChromeDriver (version must match Chrome), Selenium
+## Functionality
+- CLI prompt for a search topic
+- Launches Chrome via ChromeDriver
+- Searches on `ted.com/talks`
+- Clicks into a talk from the results (selector-dependent)
 
-Install:
+## Requirements
+- Python 3.x
+- Google Chrome
+- ChromeDriver (must match your Chrome version)
+- Selenium
+
+## Install & Run
 pip install selenium
-
-Run:
 python main.py
 
-ChromeDriver:
-- Put `chromedriver` / `chromedriver.exe` on PATH, or set the driver path in `main.py` (the `PATH = "..."` line).
 
-Notes:
-- Start URL should be `https://www.ted.com/talks` (fix it if yours is malformed).
-- TED's DOM/class names change; if you get `NoSuchElementException`, update the `By.NAME` / `By.CLASS_NAME` selectors.
-- `time.sleep` is fragile; prefer `WebDriverWait` for real use.
+## ChromeDriver
+Either:
+- Add `chromedriver` / `chromedriver.exe` to PATH, or
+- Set an absolute driver path in `main.py`, e.g.
+  `PATH = "C:\\Program Files (x86)\\chromedriver.exe"`
 
-Files: `main.py`
+## Known Issues
+- TED’s DOM/class names change frequently. If you see `NoSuchElementException`, update the `By.NAME` / `By.CLASS_NAME` selectors.
+- The script uses `time.sleep`; replace with `WebDriverWait` for reliability.
+- Ensure the start URL is valid (recommended: `https://www.ted.com/talks`).
+

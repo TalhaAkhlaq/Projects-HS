@@ -28,6 +28,6 @@ Computer-vision virtual mouse controlled by hand landmarks from a webcam feed.
 
 ## Hand Landmark Overlay
 <p align="center">
-  <img src="image%20(2).png" alt="Hand landmark overlay" width="520">
+  <img src="image%20(2).png" alt="Hand landmark overlay" width="480">
 </p>
 

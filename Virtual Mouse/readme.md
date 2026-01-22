@@ -26,7 +26,7 @@ Computer-vision virtual mouse controlled by hand landmarks from a webcam feed.
 - This moves and clicks your real system cursor. Run only when you can safely control the pointer.
 - Thresholds (`20`, `100`) depend on camera FOV, resolution, and hand distance. Adjust as needed.
 
-## Example
+## Hand Landmark Overlay
 <p align="center">
-  <img src="image (2).png" alt="Hand landmark overlay" width="600">
+  <img src="image (2).png" alt="Hand landmark overlay" width="600" size="50%" >
 </p>

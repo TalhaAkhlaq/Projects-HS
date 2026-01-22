@@ -16,8 +16,8 @@ Selenium WebDriver script that automates TED’s search flow: accepts a user top
 - Selenium
 
 ## Install & Run
-pip install selenium
-python main.py
+- pip install selenium
+- python main.py
 
 
 ## ChromeDriver

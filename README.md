@@ -6,7 +6,9 @@ Archived personal projects and coursework from high school.
 
 ## Copyright & Licensing
 
-Copyright © Talha Akhlaq <talhaakhlaq1@gmail.com>  
-Distributed under the MIT License. See `LICENSE` for details.
+Copyright © Talha Akhlaq
 
-For more information on my projects and other academic work, please visit my [GitHub profile](https://github.com/TalhaAkhlaq?tab=repositories).
+Distributed under the MIT License. See LICENSE for details.
+##
+
+For more information on my projects and coursework, please see my [repositories](https://github.com/TalhaAkhlaq?tab=repositories).

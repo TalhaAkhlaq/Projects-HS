@@ -31,3 +31,17 @@ Either:
 - The script uses `time.sleep`; replace with `WebDriverWait` for reliability.
 - Ensure the start URL is valid (recommended: `https://www.ted.com/talks`).
 
+## Example Runs
+
+<table>
+  <tr>
+    <td><img src="./1.png" alt="Example 1" width="420" /></td>
+    <td><img src="./2.png" alt="Example 2" width="420" /></td>
+  </tr>
+  <tr>
+    <td><img src="./3.png" alt="Example 3" width="420" /></td>
+    <td><img src="./4.png" alt="Example 4" width="420" /></td>
+  </tr>
+</table>
+
+
